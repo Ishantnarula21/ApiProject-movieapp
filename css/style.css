@@ -1,0 +1,81 @@
+body{
+  background-color: #212529!important;
+  color:white;
+}
+.navbar-dark .nav-item .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  color: #fff;
+}
+
+.fa-li {
+  position: relative;
+  left: 0;
+}
+.navigations li{
+  float: left;
+}
+.card{
+  margin-top:20px;
+  color:yellow;
+  border:1px solid #212529!important;
+  border-radius: 50px;
+}
+.card-body{
+  background-color: #2d2f31;
+  color:yellow;
+}
+.card-body:hover{
+  background-color: #2d2f31;
+}
+.card img{
+  height:400px;
+  width:286px;
+  object-fit: cover;
+}
+.slider{
+  margin-top:50px;
+}
+.slider img{
+  height: 300px;
+}
+.slider h1{
+  color:yellow;
+}
+a.info {
+  text-decoration: none;
+}
+a.info:hover{
+  text-decoration: none;
+}
+.infoo{
+  float:left;
+  padding: 20px;
+  color:white;
+}
+.infoo b{
+  color:yellow;
+}
+.genres{
+  list-style: none;
+}
+.genres li{
+  float:left;
+}
+.dropdown{
+  margin-bottom: 70px;
+}
+.dropdown-menu{
+  transform: translate3d(10px, 38px, 0px)!important;
+  background-color: #212529!important;
+  color: white  !important;
+  border:none!important;
+}
+.dropdown-item:hover{
+  background-color: #2d2f31!important;
+}
